@@ -1,0 +1,14 @@
+//////////////////////////////////////////////////////////////////////////////
+// Copyright 2011 Johannes Marbach. All rights reserved.
+// See the LICENSE file for details.
+
+UnblockUS
+
+This is a shell script that appends/strips Unblock US domain name server
+entries to/from resolv.conf.head.
+
+USAGE: unblockus.sh [UP|DOWN]
+
+The script is configured for use on Arch Linux in Germany. You may need to
+change the DNS servers, the path to resolv.conf.head and the network
+reconnection command in the script's 'Settings' section.
