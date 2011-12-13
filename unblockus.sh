@@ -16,6 +16,10 @@ DNS=("208.122.23.22" "208.122.23.23" "184.106.242.193")
 RCH=/etc/resolv.conf.head
 
 # Network reconnection command
+#   netcfg2: netcfg2 -r INTERFACE
+#   NetworkManager: /etc/rc.d/networkmanager restart (Note that NetworkManager
+#     needs to be configured to use resolv.conf.head. See for instance
+#     http://bit.ly/vlzqNF)
 RECONNECT="netcfg2 -r wlan0"
 
 ##############################################################################
