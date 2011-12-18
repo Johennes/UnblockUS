@@ -31,7 +31,7 @@ RECONNECTING="Reconnecting network..."
 
 function usage
 {
-    echo "USAGE: unblockus.sh [UP|DOWN]"
+    echo "USAGE: unblockus.sh [up|down]"
 }
 
 function clear
