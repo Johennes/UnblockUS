@@ -20,7 +20,7 @@ RCH=/etc/resolv.conf.head
 #   NetworkManager: /etc/rc.d/networkmanager restart (Note that NetworkManager
 #     needs to be configured to use resolv.conf.head. See for instance
 #     http://bit.ly/vlzqNF)
-RECONNECT="netcfg2 -r wlan0"
+RECONNECT="netcfg -r $( netcfg current)"
 
 ##############################################################################
 ## Script action
