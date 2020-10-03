@@ -1,7 +1,7 @@
 UnblockUS
 =========
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+*Mirrors: [GitHub] ~ [GitLab]*
 
 A DNS toggle utility for UnblockUS
 
@@ -18,3 +18,6 @@ The script is configured for use on Arch Linux in Germany. Depending on your
 location and system, you may need to change the DNS servers, the path to
 `resolv.conf.head` and the network reconnection command in the script's
 _Settings_ section.
+
+[GitHub]: https://github.com/Johennes/UnblockUS
+[GitLab]: https://gitlab.com/cherrypicker/UnblockUS
