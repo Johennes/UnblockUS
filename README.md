@@ -1,8 +1,6 @@
 UnblockUS
 =========
 
-*Mirrors: [GitHub] ~ [GitLab]*
-
 A DNS toggle utility for UnblockUS
 
 This is a shell script that appends/strips Unblock US domain name server
@@ -18,6 +16,3 @@ The script is configured for use on Arch Linux in Germany. Depending on your
 location and system, you may need to change the DNS servers, the path to
 `resolv.conf.head` and the network reconnection command in the script's
 _Settings_ section.
-
-[GitHub]: https://github.com/Johennes/UnblockUS
-[GitLab]: https://gitlab.com/cherrypicker/UnblockUS
